@@ -1,19 +1,68 @@
-.box {
-  min-height: 50px;
-  padding: 5px;
-  margin: 5px;
-  font-weight: 800;
-  color: #fff;
+body {
+  background-color: rgb(0, 0, 0);
+}
+.navbar {
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
-.skyblue {
-  background: deepskyblue;
+.pull-left {
+  padding-right: 25px;
 }
 
-.purple {
-  background: rebeccapurple;
+.text-left {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+} 
+
+h3 {
+  font-size: 25px;
+  color: rgb(133, 216, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.red {
-  background: indianred;
+h4 {
+  text-indent: 210px;
+  color: rgb(20, 105, 145);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#data {
+  padding-left: 100px;
+  padding-right: 100px;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+tr:nth-child(even) { 
+  background-color: white; 
+}
+
+.crop img {
+  width: 600px;
+  height: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand{
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  background: rgb(255, 97, 123);
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+      background-color: rgb(6, 0, 43);
+  }
+  
+  .navbar-brand {
+      background-color:  rgb(6, 0, 43);
+      font-weight: bold;
+  }
+
 }
